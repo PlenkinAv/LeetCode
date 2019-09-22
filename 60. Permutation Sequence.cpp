@@ -1,7 +1,4 @@
-/*
-https://leetcode.com/problems/permutation-sequence/
-The set [1,2,3,...,n] contains a total of n! unique permutations.
-Given n and k, return the kth permutation sequence.*/
+//https://leetcode.com/problems/permutation-sequence/
 
 class Solution {
 public:
