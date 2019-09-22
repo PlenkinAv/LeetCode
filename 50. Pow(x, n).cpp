@@ -7,7 +7,7 @@ Implement pow(x, n), which calculates x raised to the power n./*
 class Solution {
 public:
     double myPow(double x, int &n) {
-        if (x==1) {return x;}
+        if (abs(x)==1) {return x;}
         else
         {
             if (n==0) {return 1;}
