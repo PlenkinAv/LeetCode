@@ -1,6 +1,4 @@
-/*
-https://leetcode.com/problems/powx-n/
-Implement pow(x, n), which calculates x raised to the power n./*
+//https://leetcode.com/problems/powx-n/
 
 //playground не доступен
 
