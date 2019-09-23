@@ -5,7 +5,7 @@
 class Solution {
 public:
     double myPow(double x, int &n) {
-        if (abs(x)==1) {return x;}
+        if (x==1) {return x;}
         else
         {
             if (n==0) {return 1;}
@@ -20,18 +20,15 @@ public:
                     else
                     {
                         double ans=x;
-                        while (n>1)
+                        if (n%2 == 0)
                         {
-                            if (n%2 == 0)
-                            {
-                                ans*=ans;
-                                n/=2;
-                            }
-                            else
-                            {
-                                n--;
-                                ans*=myPow(ans, n); 
-                            };
+                            n/=2;
+                            ans=myPow(ans*ans, n);
+                        }
+                        else
+                        {
+                            n--;
+                            ans*=myPow(ans, n); 
                         };
                         if (negative) {return 1/ans;} else {return ans;};
                     }
