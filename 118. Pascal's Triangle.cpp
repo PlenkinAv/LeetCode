@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/pascals-triangle/description/
+//https://leetcode.com/problems/pascals-triangle/
 
 class Solution {
 public:
